@@ -46,6 +46,19 @@ Python • Pandas • Jupyter • Git • GitHub • Power BI *(planned)*
 
 ---
 
+# 🔄 Key Improvements From V1 → V2
+
+| Feature | V1 Static Analysis | V2 Live Pipeline |
+|---|---|---|
+| Data Source | Historical datasets | Live market API data |
+| Workflow | Manual notebook analysis | API-integrated workflow |
+| Market Updates | Static data snapshots | Dynamic live data |
+| Portfolio Tracking | Single analysis workflow | Sector-based tracking |
+| Project Structure | Exploratory analysis | Automation-oriented architecture |
+| Scalability | Limited | Designed for future expansion |
+
+---
+
 # 📂 Repository Structure
 
 ```text
