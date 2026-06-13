@@ -30,11 +30,12 @@ Modernizing the project into a live-market tracking workflow using API-based dat
 - Connected Python with Yahoo Finance API using `yfinance`
 - Fetching live stock market data dynamically
 - Multi-stock ticker tracking workflow
+- Error handling using try-except blocks
 - Git-based project version control setup
 - Structured project architecture for future automation
 
 ### Planned Improvements
-- Error handling using try-except blocks
+
 - Automated report generation
 - Power BI dashboard integration
 - Scheduled data refresh pipeline
