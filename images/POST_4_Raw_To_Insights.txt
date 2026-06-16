@@ -1,0 +1,66 @@
+The hardest part of my Portfolio Analytics project wasn't building the dashboard.
+
+It was proving that the numbers were correct.
+
+While working on this project, I quickly realized that creating visuals is only the final step in a much larger analytics workflow.
+
+The real challenge was moving from raw market data to reliable business insights.
+
+My workflow looked something like this:
+
+Yahoo Finance API
+↓
+Data Validation & Transformation
+↓
+Portfolio Metric Calculations (Python)
+↓
+Power BI Measures
+↓
+Cross-Verification
+↓
+Dashboard Insights
+
+Rather than relying solely on Power BI calculations, I first calculated key portfolio metrics in Python, including:
+
+✅ Portfolio Return
+✅ Annualized Return
+✅ Annualized Risk
+✅ Sharpe Ratio
+
+I then recreated the same metrics as Power BI measures and compared the results.
+
+This validation step helped me identify calculation issues, refine my measures, and gain confidence that the dashboard was reporting the correct values.
+
+One interesting lesson was deciding what should be calculated in Python versus what should be calculated dynamically in Power BI.
+
+Pre-calculated metrics
+
+• Easier to load
+• Easier to validate
+
+Dynamic measures
+
+• More interactive
+• Better reporting experience
+
+Finding the right balance required thinking about calculations, data modeling, and business requirements together.
+
+The final dashboard allowed me to compare two investor portfolios and generate insights such as:
+
+📈 Growth Portfolio delivered a total return of 5.17%
+
+📈 Conservative Portfolio delivered a total return of 4.85%
+
+📊 Growth Portfolio outperformed Conservative Portfolio by 0.32%
+
+⚖️ Conservative Portfolio achieved a higher Sharpe Ratio, indicating better risk-adjusted performance
+
+One lesson from this project:
+
+👉 Dashboards don't create trust.
+
+👉 Verified metrics do.
+
+The dashboard is only as reliable as the calculations behind it.
+
+#DataAnalytics #Python #Pandas #PowerBI #BusinessAnalytics #DataVisualization #AnalyticsProjects #DAX #FinanceAnalytics
